@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e0553399e7e2ad4ca85e52411433f64, type: 3}
+  m_Name: BallistaData
+  m_EditorClassIdentifier: 
+  _towerName: Ballista
+  _projectileSpeed: 20
+  _attackCooldown: 1
+  _attackDamage: 25
+  _attackRange: 5
+  _cost: 150
+  _sellValuePercentage: 50
+  allowedTargetingTypes: 000000000100000002000000030000000400000005000000
+  _rotateWeapon: 1
+  _towerPrefab: {fileID: 9190028158985505900, guid: 29ffcda68aaa83448852164578605d83,
+    type: 3}
+  _hoverPrefab: {fileID: 418284847001141611, guid: 361f53c41c65e0841a6da011487b6b66,
+    type: 3}
+  _description: Fast firing balista, with low damage and medium range.
+  _AOESize: 0
+  _sprite: {fileID: 21300000, guid: b083f9b61bbee8043a3f089437ff87e4, type: 3}
